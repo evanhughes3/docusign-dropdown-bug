@@ -22,6 +22,18 @@ xcuserdata/
 *.xccheckout
 *.xcscmblueprint
 
+xcuserdata
+*.xcbkptlist
+
+## Other
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+#AppCode
+.idea/*
+
 ## Obj-C/Swift specific
 *.hmap
 *.ipa
@@ -34,7 +46,7 @@ xcuserdata/
 # you should judge for yourself, the pros and cons are mentioned at:
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
-# Pods/
+Pods/
 
 # Carthage
 #
@@ -61,3 +73,19 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the 
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://github.com/fastlane/fastlane/blob/master/docs/Gitignore.md
+
+fastlane/report.xml
+fastlane/screenshots
+fastlane/test_output
+
+*.swp
+
+# Mac OSX
+#
+# DS_Store is a file that stores custom attributes of its containing folder, such as the position of icons or the choice of a background image.
+
+*.DS_Store
